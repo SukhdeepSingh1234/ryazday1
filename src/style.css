@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgba(244,209,78,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    object-fit: contain;
+    min-height: 70vh;
+    min-width: 35vw;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 10);
+}
+
+.card_img{
+    height: 25vh;
+    margin-top: 4vh;
+    width: 30vw;
+    border-radius: 20px;
+
+}
+.card_learning{
+    background-color: rgba(244,209,78,255);
+    padding: 10px;
+    border-radius: 8px;
+    width: 10vw;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.card_cont2{
+    object-fit: contain;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height:45vh ;
+    width: 30vw;
+    
+}
+
+.card_date{
+    margin-top: 4vh;
+}
+.heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card_data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card_data img{
+    height: 50px;
+    width: 50px;
+}
+
+.paragraph{
+    color: grey !important;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: px) {
+    .login_box {
+      width: 50%; /* Adjust as needed */
+      height: 45%;
+      max-width: 300px; /* Adjust as needed */
+      margin: 0 auto; /* Center the container horizontally */
+    }
+    .login_data{
+        width: 90%;
+
+    }
+    .login_form{
+        width:50vw
+    }
+    .login_form input {
+        min-width: 25vw;
+    }
+    .login_button{
+        width: 25%;
+    }
+}
